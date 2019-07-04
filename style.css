@@ -1,0 +1,148 @@
+.assForms{
+    background-image: url("bk.jpg");
+    width: 25%;
+    float: left;
+    background-repeat: no-repeat;
+    background-position: center;   
+    /* display: inline; */
+
+}
+.aboutus{
+    width: 50%;
+    display: inline-block;
+}
+.main{
+    top: 30px;
+    padding: 20px;
+    position: relative;
+    width: 40%;
+    display: inline-block;
+    margin-bottom:200px;
+}
+.header{
+  padding: 20px;
+  position: relative;
+}
+
+.adv{
+    width: 20%;
+    float: right;
+    /* display: inline-block; */
+}
+.form{
+    margin-bottom:100px; 
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+      text-align: center;
+      top: 100px;
+}
+.form input{
+    margin: 5px;
+}
+nav {
+    position: fixed;
+    top: 0px;
+    left: 0px ;
+    background-color:#413E4A;
+    color: #C0C0C0;
+    width: 100%;
+    padding: 10px;
+}
+nav a{
+  color: #C0C0C0;
+    font-size: 120%;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a:hover{
+    text-decoration: none;
+    padding: 10px;
+    background-color: #85C2B3;
+    color: #413E4A;
+}
+nav div{
+    padding: 10px;
+    display:inline-block;
+}
+div.right{
+    display:inline-block;
+    float: right;
+    margin-right: 10px;
+
+}
+div.left{
+    display:inline-block;
+
+    float: left;
+     margin-left: 0;
+}
+body{
+    font-family:  sans-serif;
+    min-height:100%; padding:0; margin:0; position:relative;
+    /* Roboto */
+}
+
+.footer {
+    clear: right;
+    clear: left;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(211, 211, 211);
+    color: black;
+    text-align: center;
+ }
+
+
+ /* Dropdown Button */
+.dropbtn {
+    font-size: 120%;
+    border: none;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+  
+  /* Dropdown button on hover & focus */
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: cornflowerblue;
+    color: black;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: cornflowerblue;
+    color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
+  
+  
+  #cardform{
+    display: grid;
+    top:0px;
+  }

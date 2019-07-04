@@ -1,0 +1,50 @@
+.form{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+      text-align: center;
+      top: 100px;
+    
+}
+.form input{
+    margin: 5px;
+}
+nav {
+    position: fixed;
+    top: 0px;
+    left: 0px ;
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+}
+nav a{
+    font-size: 120%;
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+
+nav a:hover{
+    text-decoration: none;
+    padding: 10px;
+    background-color: cornflowerblue;
+    color: black;
+}
+nav div{
+    padding: 10px;
+    display:inline-block;
+}
+div.right{
+    display:inline-block;
+    float: right;
+    margin-right: 10px;
+
+}
+div.left{
+    display:inline-block;
+
+    float: left;
+}
+body{
+    zoom: 200%;
+}
